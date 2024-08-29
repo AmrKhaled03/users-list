@@ -36,8 +36,7 @@ class _SplashState extends State<Splash> {
                 width: double.infinity,
                 child: TextButton(
                     style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(Colors.black)),
+                        backgroundColor: WidgetStateProperty.all(Colors.black)),
                     onPressed: () {
                       Navigator.push(
                           context,

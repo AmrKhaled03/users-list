@@ -56,7 +56,7 @@ class Details extends StatelessWidget {
               ),
               TextButton(
                   style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all(
+                    backgroundColor: WidgetStateProperty.all(
                         gender == 'male' ? Colors.blue : Colors.pink),
                   ),
                   onPressed: () {
